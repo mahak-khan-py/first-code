@@ -21,7 +21,7 @@ The model is trained on labeled sonar data to distinguish between rocks and mine
 
 ## Workflow
 
--Load and preprocess the dataset
+-Load and preprocess the dataset <br>
 -Split data into training and testing sets
 -Train Logistic Regression model
 -Evaluate model performance
