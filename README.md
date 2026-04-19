@@ -15,38 +15,38 @@ The goal of this project is to build a classification model using Python that ca
 
 ## Model Used
 
-- Logistic Regression.
+- Logistic Regression. <br>
 
 The model is trained on labeled sonar data to distinguish between rocks and mines.
 
 ## Workflow
 
--Load and preprocess the dataset <br>
--Split data into training and testing sets
--Train Logistic Regression model
--Evaluate model performance
--Predict object type for new input data
+-Load and preprocess the dataset. <br>
+-Split data into training and testing sets. <br>
+-Train Logistic Regression model. <br>
+-Evaluate model performance. <br>
+-Predict object type for new input data.<br>
 
 ## Model Performance
 
-Training Accuracy: 83.42%
-Testing Accuracy: 76.19%
+Training Accuracy: 83.42% <br>
+Testing Accuracy: 76.19% <br>
 
 ## How to Run
 
-1. Open the notebook file (".ipynb")
-2. Run all the cells step-by-step
-3. View the prediction results
+1. Open the notebook file (".ipynb"). <br>
+2. Run all the cells step-by-step. <br>
+3. View the prediction results. <br>
 
 ## Files in this Repository
 
-- "Copy_of_Rock_vs_Mine_Prediction.ipynb" → Main project notebook
-- "README.md" → Project description
+- "Copy_of_Rock_vs_Mine_Prediction.ipynb" → Main project notebook.<br>
+- "README.md" → Project description. <br>
 
 ## Result
 
 The model is able to classify objects with good accuracy based on sonar data.
 
-##Author
+## Author
 
 Mahak Khan
