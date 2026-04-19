@@ -4,7 +4,7 @@ This project is a Machine Learning model that predicts whether an object is a Ro
 
  Project Overview
 
-The goal of this project is to build a classification model using Python that can accurately distinguish between rocks and underwater mines.
+The goal of this project is to build a classification model using Python that can accurately distinguish between rocks and underwater mines. Sonar systems emit sound waves and analyze their reflections to detect objects underwater. Since rocks and mines reflect sound differently, a machine learning model can learn these patterns and classify them accurately.
 
 Technologies Used
 
@@ -13,12 +13,24 @@ Technologies Used
 - Pandas
 - Scikit-learn
 
-How it Works
+Model Used
 
-- The dataset contains sonar signals reflected from objects.
-- These signals are used as input features.
-- A machine learning model is trained on this data.
-- The model predicts whether the object is a rock or a mine.
+- Logistic Regression
+
+The model is trained on labeled sonar data to distinguish between rocks and mines.
+
+Workflow
+
+-Load and preprocess the dataset
+-Split data into training and testing sets
+-Train Logistic Regression model
+-Evaluate model performance
+-Predict object type for new input data
+
+Model Performance
+
+Training Accuracy: 83.42%
+Testing Accuracy: 76.19%
 
 How to Run
 
