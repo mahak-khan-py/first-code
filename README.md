@@ -38,11 +38,6 @@ Testing Accuracy: 76.19% <br>
 2. Run all the cells step-by-step. <br>
 3. View the prediction results. <br>
 
-## Files in this Repository
-
-- "Copy_of_Rock_vs_Mine_Prediction.ipynb" → Main project notebook.<br>
-- "README.md" → Project description. <br>
-
 ## Result
 
 The model is able to classify objects with good accuracy based on sonar data.
